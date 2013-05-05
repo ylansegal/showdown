@@ -1,4 +1,8 @@
-+ seeds.rb with Faker
 + make it hostable on heroku
++ unicorn branch
+  + Install and configure unicorn
++ puma branch
+  + Switch to jruby - Make sure rails s and rake db:seed work
+  + Install puma
 + write test script and data aggregation
 
