@@ -16,3 +16,7 @@ group :production do
 end
 
 gem 'unicorn'
+
+group :development do
+  gem 'foreman'
+end
