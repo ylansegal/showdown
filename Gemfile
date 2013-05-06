@@ -1,15 +1,15 @@
-  source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-ruby '1.9.3'
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.3'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
 gem 'sass-rails', '~> 4.0.0.rc1'
 
 gem 'faker'
 
 # Heroku Gems
-gem 'pg'
+gem 'activerecord-jdbcpostgresql-adapter'
 # Neded for rails 4
 group :production do
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
@@ -17,7 +17,7 @@ group :production do
   gem 'uglifier'
 end
 
-gem 'unicorn'
+gem 'puma'
 
 group :development do
   gem 'foreman'
