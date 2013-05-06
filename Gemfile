@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+  source 'https://rubygems.org'
 
 ruby '1.9.3'
 
@@ -13,6 +13,7 @@ gem 'pg'
 group :production do
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+  gem 'uglifier'
 end
 
 gem 'unicorn'
