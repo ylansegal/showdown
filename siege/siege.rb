@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-url = 'http://localhost:5000/articles'
-server = 'unicorn'
+url = 'https://unicorn-showdown.herokuapp.com/articles'
+server = 'puma'
 users = [1, 2, 4, 8, 16, 32, 64, 128]
 
 puts "Warming up..."
