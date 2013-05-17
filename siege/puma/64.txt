@@ -1,0 +1,16 @@
+
+Lifting the server siege...      done.
+
+Transactions:		       12289 hits
+Availability:		      100.00 %
+Elapsed time:		       29.96 secs
+Data transferred:	      107.48 MB
+Response time:		        0.06 secs
+Transaction rate:	      410.18 trans/sec
+Throughput:		        3.59 MB/sec
+Concurrency:		       24.45
+Successful transactions:       12289
+Failed transactions:	           0
+Longest transaction:	       26.41
+Shortest transaction:	        0.03
+ 
