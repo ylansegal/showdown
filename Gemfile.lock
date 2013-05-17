@@ -10,6 +10,15 @@ GIT
   specs:
     rails_log_stdout (0.0.1)
 
+GIT
+  remote: git://github.com/jruby/activerecord-jdbc-adapter.git
+  revision: b1cb2cb59496a7c3ae22799f88c8c4789e6a8cce
+  specs:
+    activerecord-jdbc-adapter (1.3.0.DEV)
+    activerecord-jdbcpostgresql-adapter (1.3.0.DEV)
+      activerecord-jdbc-adapter (~> 1.3.0.DEV)
+      jdbc-postgres (>= 9.1, < 9.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -31,10 +40,6 @@ GEM
       activesupport (= 4.0.0.rc1)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.2)
-    activerecord-jdbc-adapter (1.2.9)
-    activerecord-jdbcpostgresql-adapter (1.2.9)
-      activerecord-jdbc-adapter (~> 1.2.9)
-      jdbc-postgres (>= 9.1, < 9.3)
     activesupport (4.0.0.rc1)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
@@ -59,7 +64,7 @@ GEM
       thor (>= 0.13.6)
     hike (1.2.2)
     i18n (0.6.4)
-    jdbc-postgres (9.2.1002.1)
+    jdbc-postgres (9.2.1002)
     mail (2.5.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -121,7 +126,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-jdbcpostgresql-adapter
+  activerecord-jdbc-adapter!
+  activerecord-jdbcpostgresql-adapter!
   faker
   foreman
   puma
