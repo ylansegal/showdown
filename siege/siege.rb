@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 url = 'http://localhost:5000/articles'
-server = 'puma'
+server = 'puma_rbx'
 users = [1, 2, 4, 8, 16, 32, 64, 128]
 
 puts "Warming up..."

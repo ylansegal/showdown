@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.3'
+ruby '1.9.3', :engine => 'rbx', :engine_version => '2.0.0rc1'
 
 # # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
@@ -13,6 +13,11 @@ gem 'faker'
 platforms :jruby do
   gem 'activerecord-jdbc-adapter', :github => 'jruby/activerecord-jdbc-adapter'
   gem 'activerecord-jdbcpostgresql-adapter', github: 'jruby/activerecord-jdbc-adapter'
+end
+
+platforms :rbx do
+  gem 'pg'
+  gem 'json', '~> 1.7.7'
 end
 
 # Neded for rails 4
