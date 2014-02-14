@@ -4,7 +4,7 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking 127.0.0.1 (be patient)
 Completed 5000 requests
-Finished 5327 requests
+Finished 5679 requests
 
 
 Server Software:        
@@ -15,31 +15,31 @@ Document Path:          /articles
 Document Length:        8824 bytes
 
 Concurrency Level:      32
-Time taken for tests:   30.004 seconds
-Complete requests:      5327
+Time taken for tests:   30.000 seconds
+Complete requests:      5679
 Failed requests:        0
 Write errors:           0
-Total transferred:      51308640 bytes
-HTML transferred:       47014272 bytes
-Requests per second:    177.54 [#/sec] (mean)
-Time per request:       180.238 [ms] (mean)
-Time per request:       5.632 [ms] (mean, across all concurrent requests)
-Transfer rate:          1669.98 [Kbytes/sec] received
+Total transferred:      54688770 bytes
+HTML transferred:       50111496 bytes
+Requests per second:    189.30 [#/sec] (mean)
+Time per request:       169.045 [ms] (mean)
+Time per request:       5.283 [ms] (mean, across all concurrent requests)
+Transfer rate:          1780.22 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.4      0      19
-Processing:    72  180  11.8    178     233
-Waiting:       72  179  11.8    178     232
-Total:         74  180  11.8    178     233
+Connect:        0    0   0.4      0      20
+Processing:    75  168   8.7    167     236
+Waiting:       75  168   8.7    167     236
+Total:         77  169   8.7    168     237
 
 Percentage of the requests served within a certain time (ms)
-  50%    178
-  66%    183
-  75%    186
-  80%    189
-  90%    195
-  95%    201
-  98%    207
-  99%    210
- 100%    233 (longest request)
+  50%    168
+  66%    171
+  75%    173
+  80%    174
+  90%    180
+  95%    184
+  98%    189
+  99%    192
+ 100%    237 (longest request)
