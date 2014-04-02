@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rvm use jruby
+export BUNDLE_GEMFILE=Gemfile.jruby
+
