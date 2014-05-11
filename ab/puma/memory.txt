@@ -1,0 +1,11 @@
+  PID STAT      TIME  SL  RE PAGEIN      VSZ    RSS   LIM     TSIZ  %CPU %MEM COMMAND
+ 4656 R+    12:30.20   0   0      0  3337676 494568     -        0 487.9  5.9 /usr/bin/java -Djdk.home= -Djruby.home=/Users/ylansegal/.rvm/rubies/jruby-1.7.12 -Djruby.script=jruby -Djruby.shell=/bin/sh -Djf
+ 4637 S+     0:18.40   0   0      0  3267660 139800     -        0   0.0  1.7 /usr/bin/java -Djdk.home= -Djruby.home=/Users/ylansegal/.rvm/rubies/jruby-1.7.12 -Djruby.script=jruby -Djruby.shell=/bin/sh -Djf
+  661 S      0:02.61   0   0      0  2500340   9368     -        0   0.0  0.1 -zsh
+ 1144 S      0:00.88   0   0      0  2499864   8448     -        0   0.0  0.1 -zsh
+ 4774 S+     0:00.04   0   0      0  2493692   7260     -        0   0.0  0.1 ruby ab/ab.rb
+ 4781 S      0:00.39   0   0      0  2499512   6092     -        0   0.0  0.1 -zsh
+ 5114 S+     0:01.10   0   0      0  2494404   3168     -        0   8.2  0.0 ab -c 64 -t 30 http://127.0.0.1:3000/articles
+ 5113 S+     0:00.00   0   0      0  2433364    944     -        0   0.0  0.0 sh -c ab -c 64 -t 30 http://127.0.0.1:3000/articles  &> ab/puma/64.txt
+
+Observed Memory: 620 Mb

@@ -4,42 +4,43 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking 127.0.0.1 (be patient)
 Completed 5000 requests
-Finished 5702 requests
+Completed 10000 requests
+Finished 11347 requests
 
 
 Server Software:        
 Server Hostname:        127.0.0.1
-Server Port:            5000
+Server Port:            4100
 
 Document Path:          /articles
-Document Length:        8824 bytes
+Document Length:        8615 bytes
 
 Concurrency Level:      16
-Time taken for tests:   30.013 seconds
-Complete requests:      5702
+Time taken for tests:   30.001 seconds
+Complete requests:      11347
 Failed requests:        0
 Write errors:           0
-Total transferred:      54911872 bytes
-HTML transferred:       50314448 bytes
-Requests per second:    189.98 [#/sec] (mean)
-Time per request:       84.218 [ms] (mean)
-Time per request:       5.264 [ms] (mean, across all concurrent requests)
-Transfer rate:          1786.70 [Kbytes/sec] received
+Total transferred:      106593718 bytes
+HTML transferred:       97754405 bytes
+Requests per second:    378.22 [#/sec] (mean)
+Time per request:       42.303 [ms] (mean)
+Time per request:       2.644 [ms] (mean, across all concurrent requests)
+Transfer rate:          3469.77 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       1
-Processing:    37   84   6.4     83     120
-Waiting:       36   83   6.4     82     119
-Total:         37   84   6.4     83     120
+Connect:        0    0   0.0      0       2
+Processing:    11   42   9.2     40     103
+Waiting:       11   42   9.2     40     103
+Total:         12   42   9.2     41     103
 
 Percentage of the requests served within a certain time (ms)
-  50%     83
-  66%     85
-  75%     87
-  80%     88
-  90%     92
-  95%     97
-  98%    102
-  99%    104
- 100%    120 (longest request)
+  50%     41
+  66%     42
+  75%     43
+  80%     43
+  90%     45
+  95%     48
+  98%     89
+  99%     95
+ 100%    103 (longest request)

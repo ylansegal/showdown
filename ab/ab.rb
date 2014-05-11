@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-url = 'http://127.0.0.1:5000/articles'
+url = 'http://127.0.0.1:4100/articles'
 server = 'unicorn'
 users = [1, 2, 4, 8, 16, 32, 64, 128]
 

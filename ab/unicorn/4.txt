@@ -4,42 +4,43 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking 127.0.0.1 (be patient)
 Completed 5000 requests
-Finished 5747 requests
+Completed 10000 requests
+Finished 11394 requests
 
 
 Server Software:        
 Server Hostname:        127.0.0.1
-Server Port:            5000
+Server Port:            4100
 
 Document Path:          /articles
-Document Length:        8824 bytes
+Document Length:        8615 bytes
 
 Concurrency Level:      4
-Time taken for tests:   30.003 seconds
-Complete requests:      5747
+Time taken for tests:   30.001 seconds
+Complete requests:      11394
 Failed requests:        0
 Write errors:           0
-Total transferred:      55343610 bytes
-HTML transferred:       50711528 bytes
-Requests per second:    191.55 [#/sec] (mean)
-Time per request:       20.882 [ms] (mean)
-Time per request:       5.221 [ms] (mean, across all concurrent requests)
-Transfer rate:          1801.39 [Kbytes/sec] received
+Total transferred:      107035236 bytes
+HTML transferred:       98159310 bytes
+Requests per second:    379.79 [#/sec] (mean)
+Time per request:       10.532 [ms] (mean)
+Time per request:       2.633 [ms] (mean, across all concurrent requests)
+Transfer rate:          3484.10 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       1
-Processing:    14   21   4.6     20      55
-Waiting:       13   20   4.6     19      54
-Total:         14   21   4.6     20      55
+Connect:        0    0   0.3      0      33
+Processing:     6   10   4.2     10      67
+Waiting:        6   10   4.2     10      67
+Total:          6   11   4.2     10      67
 
 Percentage of the requests served within a certain time (ms)
-  50%     20
-  66%     22
-  75%     24
-  80%     25
-  90%     27
-  95%     29
-  98%     31
-  99%     33
- 100%     55 (longest request)
+  50%     10
+  66%     11
+  75%     12
+  80%     12
+  90%     14
+  95%     14
+  98%     17
+  99%     24
+ 100%     67 (longest request)
