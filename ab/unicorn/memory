@@ -1,0 +1,15 @@
+RSS is used memort in KB
+
+ps -v
+  PID STAT      TIME  SL  RE PAGEIN      VSZ    RSS   LIM     TSIZ  %CPU %MEM COMMAND
+ 6823 S+     2:54.95   0   0      0  2580612  96284     -        0   0.0  1.1 unicorn worker[0] --port 4100 --env production --config ./config/unicorn.rb
+ 6824 S+     2:54.41   0   0      0  2580612  95736     -        0   0.0  1.1 unicorn worker[1] --port 4100 --env production --config ./config/unicorn.rb
+ 6825 S+     2:56.04   0   0      0  2579588  95144     -        0   0.0  1.1 unicorn worker[2] --port 4100 --env production --config ./config/unicorn.rb
+ 6826 S+     2:54.66   0   0      0  2580612  94864     -        0   0.0  1.1 unicorn worker[3] --port 4100 --env production --config ./config/unicorn.rb
+ 6821 S+     0:01.47   0   0      0  2547844  75076     -        0   0.0  0.9 unicorn master --port 4100 --env production --config ./config/unicorn.rb
+ 6820 S+     0:00.55   0   0      0  2481864  24116     -        0   0.0  0.3 foreman: master
+ 6839 S+     0:00.23   0   0      0  2497528   6656     -        0   0.0  0.1 -zsh
+ 7149 S      0:00.31   0   0      0  2500536   6156     -        0   0.1  0.1 -zsh
+ 6463 S      0:00.23   0   0      0  2499512   6008     -        0   0.0  0.1 -zsh
+
+Max: 450 Mb

@@ -1,0 +1,19 @@
+➜  showdown [ruby-2.1.2] git:(master) ✗ ps -v
+  PID STAT      TIME  SL  RE PAGEIN      VSZ    RSS   LIM     TSIZ  %CPU %MEM COMMAND
+ 7819 R+     2:00.96   0   0      0  2578564  93944     -        0  87.7  1.1 unicorn worker[0] --port 4100 --env production --config ./config/unicorn.rb
+ 7824 R+     2:02.77   0   0      0  2578564  93900     -        0  88.0  1.1 unicorn worker[5] --port 4100 --env production --config ./config/unicorn.rb
+ 7822 R+     2:01.20   0   0      0  2577540  92952     -        0  88.2  1.1 unicorn worker[3] --port 4100 --env production --config ./config/unicorn.rb
+ 7820 R+     2:01.34   0   0      0  2577540  92480     -        0  89.4  1.1 unicorn worker[1] --port 4100 --env production --config ./config/unicorn.rb
+ 7823 R+     2:01.75   0   0      0  2577540  92448     -        0  87.7  1.1 unicorn worker[4] --port 4100 --env production --config ./config/unicorn.rb
+ 7821 R+     2:01.06   0   0      0  2576516  91760     -        0  86.8  1.1 unicorn worker[2] --port 4100 --env production --config ./config/unicorn.rb
+ 7817 S+     0:01.46   0   0      0  2527364  74748     -        0   0.0  0.9 unicorn master --port 4100 --env production --config ./config/unicorn.rb
+ 7816 S+     0:00.51   0   0      0  2467528  21900     -        0   0.0  0.3 foreman: master
+ 7834 S+     0:00.04   0   0      0  2467068   7180     -        0   0.0  0.1 ruby ab/ab.rb
+ 7149 S      0:00.65   0   0      0  2500600   6996     -        0   0.0  0.1 -zsh
+ 6839 S      0:00.24   0   0      0  2497528   6684     -        0   0.0  0.1 -zsh
+ 6463 S      0:00.24   0   0      0  2499512   6008     -        0   0.0  0.1 -zsh
+ 7986 S+     0:01.96   0   0      0  2495428   3968     -        0   8.8  0.0 ab -c 64 -t 30 http://127.0.0.1:4100/articles
+ 7985 S+     0:00.00   0   0      0  2433364    944     -        0   0.0  0.0 sh -c ab -c 64 -t 30 http://127.0.0.1:4100/articles  &> ab/unicorn_6/64.txt
+
+
+Observer max: 624 Mb

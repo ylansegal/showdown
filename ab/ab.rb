@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 url = 'http://127.0.0.1:4100/articles'
-server = 'unicorn'
+server = 'unicorn_6'
 users = [1, 2, 4, 8, 16, 32, 64, 128]
 
 puts "Warming up..."

@@ -3,7 +3,7 @@ Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking 127.0.0.1 (be patient)
-Finished 3563 requests
+Finished 3673 requests
 
 
 Server Software:        
@@ -14,23 +14,23 @@ Document Path:          /articles
 Document Length:        8615 bytes
 
 Concurrency Level:      1
-Time taken for tests:   30.004 seconds
-Complete requests:      3563
+Time taken for tests:   30.002 seconds
+Complete requests:      3673
 Failed requests:        0
 Write errors:           0
-Total transferred:      33470822 bytes
-HTML transferred:       30695245 bytes
-Requests per second:    118.75 [#/sec] (mean)
-Time per request:       8.421 [ms] (mean)
-Time per request:       8.421 [ms] (mean, across all concurrent requests)
-Transfer rate:          1089.39 [Kbytes/sec] received
+Total transferred:      34504162 bytes
+HTML transferred:       31642895 bytes
+Requests per second:    122.42 [#/sec] (mean)
+Time per request:       8.168 [ms] (mean)
+Time per request:       8.168 [ms] (mean, across all concurrent requests)
+Transfer rate:          1123.10 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       0
-Processing:     6    8  10.3      7     519
-Waiting:        6    8  10.3      7     519
-Total:          6    8  10.3      8     519
+Connect:        0    0   0.0      0       1
+Processing:     6    8   2.2      8      43
+Waiting:        6    8   2.2      7      43
+Total:          6    8   2.2      8      43
 
 Percentage of the requests served within a certain time (ms)
   50%      8
@@ -39,6 +39,6 @@ Percentage of the requests served within a certain time (ms)
   80%      9
   90%     10
   95%     10
-  98%     15
-  99%     18
- 100%    519 (longest request)
+  98%     13
+  99%     16
+ 100%     43 (longest request)
