@@ -8,4 +8,5 @@
  5114 S+     0:01.10   0   0      0  2494404   3168     -        0   8.2  0.0 ab -c 64 -t 30 http://127.0.0.1:3000/articles
  5113 S+     0:00.00   0   0      0  2433364    944     -        0   0.0  0.0 sh -c ab -c 64 -t 30 http://127.0.0.1:3000/articles  &> ab/puma/64.txt
 
-Observed Memory: 620 Mb
+Observed Memory: 482 Mb
+CPU: Pegged at ~490%
