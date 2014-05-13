@@ -1,11 +1,16 @@
 #!/usr/bin/env ruby
 
-url = 'http://127.0.0.1:4100/articles'
-server = 'unicorn_6'
+server, port = *ARGV
+server ||= 'unamed_server'
+port ||= '3000'
+
+url = "http://127.0.0.1:#{port}/articles"
 users = [1, 2, 4, 8, 16, 32, 64, 128]
 
-puts "Warming up..."
-`ab #{url}`
+`mkdir -p ab/#{server}`
+
+puts 'Warming up...'
+5.times { `ab #{url}` }
 
 users.each do |user_count|
   puts "Runnning test with #{user_count} users"
