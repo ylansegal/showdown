@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "4.1.1"
-gem 'sass-rails', '~> 4.0.0'
+gem "rails", "4.2.5"
+gem 'sass-rails', '~> 5.0.0'
 
 gem 'faker'
+gem "squeel"
 
 # Heroku Gems
 platform :ruby do
