@@ -5,7 +5,6 @@ gem "rails", "4.2.5"
 gem 'sass-rails', '~> 5.0.0'
 
 gem 'faker'
-gem "squeel"
 
 # Heroku Gems
 platform :ruby do
